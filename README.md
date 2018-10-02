@@ -8,6 +8,6 @@ A _Very Simple_ review site about sharks
 
 
 ## Built with
-Spring
+[Spring] (https://start.spring.io/)
 
-Gradle
+[Gradle] (https://gradle.org/)
