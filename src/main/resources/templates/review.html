@@ -2,13 +2,15 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-  <title>Review</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shark Review</title>
 </head>
 
 <body>
-  <h1>Review</h1>
   <div th:each="review: ${reviews}">
-    <p th:text="${review.title}"></p>
+    <h1 th:text="${review.title}"></h1>
+    <img th:src="${review.img}" alt="Shark" width="600" height="450" />
     <p th:text="${review.content}"></p>
     <p th:text="${review.ranking}"></p>
     <a href="http://localhost:8080/show-reviews">Back To Home</a>

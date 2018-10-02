@@ -12,10 +12,10 @@ public class ReviewRepository {
 	private Map<Long, Review> reviewList = new HashMap<>();
 	
 	public ReviewRepository() {
-		Review thresher = new Review(1, "Thresher Shark", "ThresherShark.jpg", "Sharks", "Extra Long Caudal Fin used to Whip the water and stun fish", "5 out of 5 Chomps");
-		Review frilled = new Review(2, "Frilled Shark", "FrilledShark.jpg", "Sharks", "Deep Sea Sharks, like something from a prehistoric age", "5 out of 5 Chomps");
-		Review whale = new Review(3, "Whale Shark", "WhaleShark.jpg", "Shark", "Gentle Giants, the largest fish", "5 out of 5 filter feeders");
-		Review bull = new Review (4, "Bull Shark", "BullShark.jpg", "Shark", "Can switch from salt water to fresh water, most likely to bite humans", "5 out of 5 terrifying Chomps");
+		Review thresher = new Review(1, "Thresher Shark", "images/ThresherShark.jpg", "Sharks", "Extra Long Caudal Fin used to Whip the water and stun fish", "5 out of 5 Chomps");
+		Review frilled = new Review(2, "Frilled Shark", "images/FrilledShark.jpg", "Sharks", "Deep Sea Sharks, like something from a prehistoric age", "5 out of 5 Chomps");
+		Review whale = new Review(3, "Whale Shark", "images/WhaleShark.jpg", "Shark", "Gentle Giants, the largest fish", "5 out of 5 filter feeders");
+		Review bull = new Review (4, "Bull Shark", "images/BullShark.jpg", "Shark", "Can switch from salt water to fresh water, most likely to bite humans", "5 out of 5 terrifying Chomps");
 		
 		reviewList.put(thresher.getId(), thresher);
 		reviewList.put(frilled.getId(), frilled);
