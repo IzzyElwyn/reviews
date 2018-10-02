@@ -2,7 +2,7 @@
 A **Very Simple** review site about sharks
 
 ## Screenshots
-![alt text](/static/images/ScreenShots/IndReviewPage.png?raw=true "Individual Review Page")
+![Single Review Page](/static/images/ScreenShots/IndReviewPage.png)
 
 ## Built with
 Spring
